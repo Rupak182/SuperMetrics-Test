@@ -1,3 +1,9 @@
+---
+import "@fontsource-variable/geist";
+import "@fontsource-variable/geist-mono";
+import '@fontsource/roboto';
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -6,6 +12,8 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	</head>
 	<body>
 		<slot />
@@ -13,10 +21,15 @@
 </html>
 
 <style>
+	h1 {
+		font-family: "";
+	}
 	html,
 	body {
+		font-family: 'Geist Variable', sans-serif;
 		margin: 0;
 		width: 100%;
 		height: 100%;
 	}
+
 </style>
