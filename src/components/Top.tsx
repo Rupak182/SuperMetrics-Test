@@ -8,18 +8,13 @@ import FAQ from "./FAQ"
 function Top() {
   return (
     <main>
-<div className='bg-gradient-to-b from-[#DCEFFF] via-[#F7FAFC] to-white'>
-      <Navbar/>
-      <Hero/>
-    </div>
-
     <div  className="w-full p-5 flex flex-col items-center justify-center font-geist_mono text-xl border-y-2 py-16">
-                <span className="text-xl text-gray600 ">Trusted by 5000+ marketing professionals</span>
+                <span className="text-xl text-gray600 text-center">Trusted by 5000+ marketing professionals</span>
                 <img src="/companies.svg" className="w-full" alt="companies" />
     </div>
 
-    <div className="flex flex-col border-b-2 items-center justify-center p-5 gap-4 py-8 bg-gradient-to-b from-[#F5F7FA] to-white">
-        <span className="font-semibold text-gray800 text-4xl w-1/3 text-center">Access all your marketing data without leaving</span>
+    <div className="flex flex-col border-b-2 items-center justify-center p-5 gap-8 py-8 bg-gradient-to-b from-[#F5F7FA] to-white">
+        <span className="font-semibold text-gray800 text-4xl xl:w-1/3 w-1/2 text-center">Access all your marketing data without leaving</span>
         <img src="GoogleWorkspace.svg" alt="" />
         <img className="w-5/6" src="google_products.svg" alt="" />
      </div>
@@ -29,13 +24,6 @@ function Top() {
         <button className="font-semibold font-geist_mono text-base shadow-white100 p-2 px-3 rounded-lg border border-gray600">Check it out</button>
     </div>
     <Steps/>
-
-    <Seperator/>
-    <Pricing/>
-    <Seperator/>
-
-    <Testimonial/>
-    <Seperator/>
     </main>
     
   )

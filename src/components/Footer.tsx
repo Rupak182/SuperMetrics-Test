@@ -26,8 +26,8 @@ export default function Footer() {
     ]
 
     return (
-        <div className='flex flex-col items-center justify-center gap-10 py-14 mt-10 px-20  bg-[#F5F7FA]'>
-            <div className='grid grid-cols-4 gap-6 w-full border-b-2'>
+        <div className=' border-t-2 flex flex-col  items-center justify-center gap-10 py-14 pb-4 mt-10 px-20  bg-[#F5F7FA]'>
+            <div className='grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 w-full border-b-2 py-10'>
                 <div>
                     <a href="/" className="text-gray900 font-bold ">SuperMetrics.com</a>
                     <div className='flex gap-4 mt-4'>
@@ -72,7 +72,7 @@ export default function Footer() {
                         }
                     </div>
                     <span className='h-[1px]  my-6 text-gray-200'>{'-'.repeat(35)}</span>
-                    <button className="flex gap-2 border-2 rounded-2xl p-2 px-3 bg-white items-center mt-4 w-fit ">
+                    <button className="flex gap-2 border-2 rounded-xl p-2 px-3 bg-white items-center mt-4 w-fit ">
                         <img src="/google_sm.svg" alt="google" />
                         <span className="text-blue500  font-medium">Google add-on</span>
                         <img src="/link2.svg" alt="link" />
@@ -82,7 +82,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className='p-5 flex flex-col items-center justify-center gap-10'>
+            <div className='p-5 pb-0 flex flex-col items-center justify-center gap-10'>
                     <span className='text-gray500'>Copyright 2025 &copy; SuperMetrics.com</span>
                     <img src="/Footer Text.svg" alt="footer_text" />
             </div>

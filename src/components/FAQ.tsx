@@ -1,6 +1,6 @@
 import CollapsableFAQ from "./CollapsableFAQ"
 
-type faqsType ={
+export type faqsType ={
   question:string
   answer:string
 }
@@ -19,7 +19,7 @@ export default function FAQ() {
 
 
   return (
-    <div className="flex flex-col items-center justify-center gap-10 py-14 mt-10 px-20 border-y-2">
+    <div className="flex flex-col items-center justify-center gap-10 py-14 mt-10 px-20 border-t-2">
       <span className="font-semibold font-geist_mono text-base shadow-white200 p-2 px-3 rounded-2xl border border-gray600">FAQ’s</span>
       <span className="font-semibold text-gray800 text-4xl  text-center">Frequently asked questions</span>
 

@@ -36,8 +36,8 @@ export default function Bottom() {
     ]
 
     return (
-        <div className="border-b-2">
-            <div className="flex  items-center justify-center gap-10 py-14 mt-10 px-20  bg-gradient-to-b from-[#F5F7FA] to-white">
+        <div className="">
+            <div className="flex lg:flex-row flex-col  border-t-2 items-center justify-center gap-10 py-14 mt-10 px-20  bg-gradient-to-b from-[#F5F7FA] to-white">
                 <div className="text flex flex-col gap-8">
                     <span className="text-4xl font-semibold  text-gray-800">Access all your marketing data without leaving Google Workspace
                     </span>
@@ -45,10 +45,10 @@ export default function Bottom() {
                 </div>
 
                 <div className=" ">
-                    <img className="w-full" src="/mac.svg" alt="picture" />
+                    <img className="" src="/mac.svg" alt="picture" />
                 </div>
             </div>
-            <div className="w-full flex items-center justify-center p-5 my-10 py-10 gap-4">
+            <div className="w-full flex flex-wrap items-center justify-center p-5 my-10 py-10 gap-4">
                 {
                     taskList.map((task)=>(
                         <div className="flex gap-2 border-2 rounded-2xl p-1 px-2 items-center ">
